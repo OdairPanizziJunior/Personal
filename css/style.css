@@ -16,6 +16,18 @@ body {
     background-image: url('/imagens/wallpaper.jpg');
 }
 
+.saudacao{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lingua{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+
+
 .button-brasil {
     display: inline-block;
     /*padding: 10px 20px;*/
@@ -26,11 +38,15 @@ body {
     margin: 10px;
     width: 150px;
     height: 90px;
-    filter:brightness(50%)
+    filter:brightness(75%);
+    transition: 1s;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px black;
 }
 
 .button-brasil:hover{
     filter: none;
+    transition: 1s;
 }
 
 .button-kingdon {
@@ -43,11 +59,15 @@ body {
     margin: 10px;
     width: 150px;
     height: 90px;
-    filter:brightness(50%)
+    filter:brightness(75%);
+    transition: 1s;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px black;
 }
 
 .button-kingdon:hover{
     filter: none;
+    transition: 1s;
 }
 
 
