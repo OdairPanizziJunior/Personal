@@ -16,6 +16,11 @@ body {
     background-image: url('../imagens/wallpaper.jpg');
 }
 
+.landpage{
+    margin: auto;
+    min-width: 500px;
+}
+
 .saudacao{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,8 +30,6 @@ body {
     font-weight: bold;
 
 }
-
-
 
 .button-brasil {
     display: inline-block;
