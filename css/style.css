@@ -21,19 +21,21 @@ footer{
     text-align: center;
     padding: 10px;;
     margin: auto;
+    color: var(--cor04);
 }
 
 .creditos{
     color: var(--cor04);
     font-weight: bold;
-
-}
-.end-page{
-    height: 100%;
 }
 
-.icons{
-    padding: 5px;
-    margin: auto;
-    position: relative;
+.menu{
+    width: 150px;
+    height: 100px;
+    background-color: var(--cor04);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: inline-block;
+
 }
