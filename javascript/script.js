@@ -1,13 +1,15 @@
-function brazil(bra){
-    bra.src = "../imagens/Flag_of_the_United_Kingdom.png";
+function trocaLinkedin(linkedin){
+    linkedin.src = "../imagens/footer/icons8-linkedin-24-cl.png";
 }
 
+function restauraLinkedin(linkedin){
+    linkedin.src = "../imagens/footer/icons8-linkedin-24-bk.png";
+}
 
-// FACEBOOK
-function trocarFace(face) {
-    face.src = "../images/footer/icons8-facebook-24-cl.png";
-  }
-  
-  function restaurarFace(face) {
-    face.src = "../images/footer/icons8-facebook-24-bk.png";
-  }
+function trocaFacebook(facebook){
+    facebook.src = "../imagens/footer/icons8-facebook-24-cl.png";
+}
+
+function restauraFacebook(facebook){
+    facebook.src = "../imagens/footer/icons8-facebook-24-bk.png";
+}
