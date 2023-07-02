@@ -4,6 +4,9 @@
     --cor03: #024873;
     --cor04: #012840;
     --cor05: #0D0D0D;
+
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
@@ -11,4 +14,26 @@ body{
     padding: 0px;
     background-color: var(--cor05);
     color: var(--cor01);
+}
+
+footer{
+    background-color: var(--cor01);
+    text-align: center;
+    padding: 10px;;
+    margin: auto;
+}
+
+.creditos{
+    color: var(--cor04);
+    font-weight: bold;
+
+}
+.end-page{
+    height: 100%;
+}
+
+.icons{
+    padding: 5px;
+    margin: auto;
+    position: relative;
 }
