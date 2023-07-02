@@ -1,0 +1,14 @@
+*:root{
+    --cor01: #41D2F2;
+    --cor02: #0367A6;
+    --cor03: #024873;
+    --cor04: #012840;
+    --cor05: #0D0D0D;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor05);
+    color: var(--cor01);
+}

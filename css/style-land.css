@@ -1,8 +1,4 @@
 *:root{
-
-    margin: 0px;
-    padding: 0px;
-
     --cor01: #41D2F2;
     --cor02: #0367A6;
     --cor03: #024873;
@@ -10,10 +6,13 @@
     --cor05: #0D0D0D;
 }
 
-body {
+body {    
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     padding-top: 100px;
     background-image: url('../imagens/wallpaper.jpg');
+
 }
 
 .landpage{
