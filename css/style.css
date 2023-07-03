@@ -1,21 +1,112 @@
-*:root{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root{
     --cor01: #41D2F2;
     --cor02: #0367A6;
     --cor03: #024873;
     --cor04: #012840;
     --cor05: #0D0D0D;
-
-    font-family: Arial, Helvetica, sans-serif;
+    --cor06: white;
 
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: var(--cor05);
-    color: var(--cor01);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: var(--cor06);
 }
 
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: var(--cor04);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec{
+    margin-right: 30px;
+}
+
+footer .container .sec.aboutus{
+    width: 40%;
+}
+
+footer .container .sec.aboutus h2{
+    position: relative;
+    color: var(--cor06);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: var(--cor06);
+}
+
+
+footer p{
+   color: var(--cor06);
+}
+
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--cor05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover{
+    background: var(--cor02);
+}
+
+.sci li .fa{
+    color: var(--cor06);
+    font-size: 20px;
+}
+
+/*
 footer{
     background-color: var(--cor01);
     text-align: center;
@@ -38,4 +129,6 @@ footer{
     color: white;
     display: inline-block;
 
-}
+}*/
+
+
