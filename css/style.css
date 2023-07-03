@@ -181,4 +181,7 @@ footer p{
     footer .container .sec.aboutus, .quickLinks, .contact{
         width: 100%;
     }
+    .copyrightText{
+        padding: 8px 40px;
+    }
 }
