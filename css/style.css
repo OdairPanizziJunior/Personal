@@ -128,9 +128,57 @@ footer p{
 
 .contact{
     width: calc(35% - 60px);
-    margin-right: 0 !important;
+    margin-right: 0 !important; /*NINJA*/
 }
 
 .contact .info{
     position: relative;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1){
+    color: var(--cor06);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: var(--cor06);
+}
+
+.contact .info li a{
+    color: var(--cor06);
+    text-decoration: none;
+}
+
+.contact .info li a:hover{
+   color: var(--cor02);
+}
+
+.copyrightText{
+    width: 100%;
+    background: var(--cor05);
+    padding: 8px 100px;
+    text-align: center;
+    color: var(--cor06);
+}
+
+@media (max-width:901px){ /*condidional resolução*/
+    footer{
+        padding: 40px;
+    }    
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.aboutus, .quickLinks, .contact{
+        width: 100%;
+    }
 }
