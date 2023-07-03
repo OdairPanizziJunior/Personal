@@ -125,3 +125,12 @@ footer p{
 .quickLinks ul li a:hover{
     color: var(--cor02);
 }
+
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
