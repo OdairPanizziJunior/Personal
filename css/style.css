@@ -53,7 +53,7 @@ footer .container .sec.aboutus{
     width: 40%;
 }
 
-footer .container .sec.aboutus h2{
+footer .container h2{
     position: relative;
     color: var(--cor06);
     font-weight: 500;
@@ -104,6 +104,26 @@ footer p{
 .sci li .fa{
     color: var(--cor06);
     font-size: 20px;
+}
+
+.quickLinks{
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li{
+    list-style: none;
+}
+
+.quickLinks ul li a{
+    color: var(--cor06);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover{
+    color: var(--cor02);
 }
 
 /*
