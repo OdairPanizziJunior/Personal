@@ -159,7 +159,7 @@ footer p{
    color: var(--cor02);
 }
 
-.copyrightText{
+.copyright{
     width: 100%;
     background: var(--cor05);
     padding: 8px 100px;
@@ -181,7 +181,7 @@ footer p{
     footer .container .sec.aboutus, .quickLinks, .contact{
         width: 100%;
     }
-    .copyrightText{
+    .copyright{
         padding: 8px 40px;
     }
 }
