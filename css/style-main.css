@@ -5,8 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
-
 }
 
 :root{
@@ -16,7 +14,6 @@
     --cor04: #012840;
     --cor05: #0D0D0D;
     --cor06: white;
-
 }
 
 body{
@@ -33,7 +30,7 @@ header {
 }
 
 .screen{
-    padding: 10px;
+    padding: 10px; /*para dar margem no celular*/
 }
 
 section{
@@ -41,7 +38,6 @@ section{
     padding: 10px;
     margin: 10px auto;
     max-width: 800px;
-    align-items: center;
     border: 1px solid black;
     box-shadow: 0px 2px 5px black;
     border-radius: 10px;
@@ -50,17 +46,40 @@ section{
 section .content{
     text-indent: 30px;
     text-align: justify;
-    
-    
 }
+
+section .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .list ul{
+    list-style: none;
+    padding: 0;
+}
+  
+section .list ul li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+  
+  ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: #0367A6;
+    border-radius: 50%;
+  }
 
 .map{
     justify-content: center;
 }
-section .list li {
-    
-    list-style-type: square;
-}
+
 
 /*
 body{
