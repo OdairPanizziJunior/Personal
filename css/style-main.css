@@ -48,11 +48,11 @@ section .content{
     text-align: justify;
 }
 
-section .list{
+/*section .list{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 section .list ul{
     list-style: none;
@@ -65,7 +65,7 @@ section .list ul li{
     margin-bottom: 10px;
 }
   
-  ul li:before {
+section .list ul li:before {
     content: "";
     position: absolute;
     left: 0;
