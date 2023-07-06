@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+:root{
+    --cor01: #41D2F2;
+    --cor02: #0367A6;
+    --cor03: #024873;
+    --cor04: #012840;
+    --cor05: #0D0D0D;
+    --cor06: white;
+
+}
+
+body{
+    background-color: var(--cor01);
+}
+
+header {
+    background-color: var(--cor04);
+    text-align: center;
+    color: var(--cor06);
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.screen{
+    padding: 10px;
+}
+
+section{
+    background-color: var(--cor06);  
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 10px;
+}
+
+section .content{
+    text-indent: 30px;
+    text-align: justify;
+    
+    
+}
+
+.map{
+    justify-content: center;
+}
+section .list li {
+    
+    list-style-type: square;
+}
+
+/*
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--cor01);
+}
+*/
+
+
+
+  @media screen and (max-width: 480px) {
+    header {
+      height: 60px;
+      padding-top: 10px;
+      font-size: xx-small;
+    }
+  }
