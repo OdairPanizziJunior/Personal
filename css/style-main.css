@@ -144,8 +144,8 @@ section .content{
 
   @media (max-width: 550px) {
     header {
-      height: 60px;
+      height: 80px;
       padding-top: 10px;
-      font-size: small;
+      font-size: 0.8em;
     }
   }
