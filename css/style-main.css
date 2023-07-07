@@ -33,6 +33,11 @@ header {
     padding: 10px; /*para dar margem no celular*/
 }
 
+.intro{
+    text-align: center;
+    font-size: 3em;
+}
+
 figure {
   margin-top: 15px;
   text-align: center;
@@ -47,6 +52,15 @@ figcaption {
 .map{
     justify-content: center;
     border: 1px solid var(--cor05);
+}
+
+.cover-photo{
+    width: 250px;
+    border: 1px solid var(--cor05);
+}
+
+.colum-cover-photo:hover{
+    text-indent: 0%;
 }
 
 table {
