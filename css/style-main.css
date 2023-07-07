@@ -45,18 +45,18 @@ header h1{
 .container {
     display: flex;
     align-items: center;
-  }
+    margin-bottom: 10px;
+}
   
-  .container img {
-    width: 300px;
+.container img {
+    width: 250px;
     height: auto;
     margin-right: 20px;
-  }
+}
   
-  .container .text {
+.container .text {
     flex: 1;
-  }
-  
+}  
 
 figure {
   margin-top: 15px;
@@ -74,14 +74,6 @@ figcaption {
     border: 1px solid var(--cor05);
 }
 
-.cover-photo{
-    width: 250px;
-    border: 1px solid var(--cor05);
-}
-
-.colum-cover-photo:hover{
-    text-indent: 0%;
-}
 
 table {
     border-collapse: collapse;
