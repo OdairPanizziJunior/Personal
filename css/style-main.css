@@ -29,13 +29,17 @@ header {
     padding-top: 25px;
 }
 
+header h1{
+    font-size: 3em;
+}
+
 .screen {
     padding: 10px; /*para dar margem no celular*/
 }
 
 .intro{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 figure {
