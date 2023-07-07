@@ -26,7 +26,7 @@ header {
     color: var(--cor06);
     width: 100%;
     height: 100px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 header h1{
@@ -52,8 +52,10 @@ header h1{
     width: 250px;
     height: auto;
     margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: -1px 1px 8px var(--cor05);
 }
-  
+
 .container .text {
     flex: 1;
 }  
