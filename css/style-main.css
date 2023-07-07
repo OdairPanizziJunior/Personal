@@ -29,24 +29,45 @@ header {
     padding-top: 25px;
 }
 
-.screen{
+.screen {
     padding: 10px; /*para dar margem no celular*/
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
+    margin-top:15px;
+}
+
+th, td {
+    padding: 5px;
     text-align: left;
-  }
+}
   
-  th {
-    background-color: #f2f2f2;
-  }
+th {
+    background-color: var(--cor05);
+    color: var(--cor06);
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+td:hover{
+
+        transform: scale(0.99);
+}
+
+table tr td:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: #0367A6;
+  border-radius: 50%;
+}
+
 
 section{
     background-color: var(--cor06);  
@@ -68,33 +89,7 @@ section .content{
     justify-content: center;
     align-items: center;
 }*/
-
-section .list ul{
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-section .list ul li{
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    flex-basis: 50%;
-    background-color: #f2f2f2;
-    padding: 10px;}
   
-section .list ul li:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 9px;
-    width: 8px;
-    height: 8px;
-    background-color: #0367A6;
-    border-radius: 50%;
-  }
 
 .map{
     justify-content: center;
