@@ -34,10 +34,14 @@ header h1{
 }
 
 .screen {
-    padding: 10px; /*para dar margem no celular*/
+    /*padding: 10px; /*para dar margem no celular*/
+    margin: -1px 10px;
+    margin-bottom: 50px;
 }
 
 .intro{
+    margin-top: 50px;
+    margin-bottom: 40px;
     text-align: center;
     font-size: 2em;
 }
@@ -81,12 +85,12 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-top:15px;
-    margin: 5px;
+    /*margin: 5px; tirado por não centralizava*/
 }
 
 th, td {
     padding: 5px;
-    text-align: left;
+/*    text-align: left;*/
 }
   
 th {
@@ -104,11 +108,11 @@ td:hover{
 section{
     background-color: var(--cor06);  
     padding: 10px;
-    margin: 10px auto;
+    margin: auto;
     max-width: 800px;
     border: 1px solid var(--cor05);
     box-shadow: 0px 2px 5px var(--cor05);
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 section .content{
