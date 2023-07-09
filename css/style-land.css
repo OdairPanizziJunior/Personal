@@ -13,70 +13,55 @@
     --cor06: white;
 }
 
-body {    
+body {
     margin: 0px;
     padding: 0px;
     text-align: center;
-    padding-top: 100px;
     background-color: var(--cor04);
-    color:var(--cor06);
+    color: var(--cor06);
 }
-
-.landpage{
+  
+.landpage {
     margin: auto;
-    min-width: 500px;
+    padding-top: 100px;
+    min-width: 300px;
+    max-width: 800px;
 }
-
-.landpage p{
+  
+.landpage p {
     font-weight: bold;
 }
-
+  
+.button-brasil, .button-kingdon {
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+    width: 150px;
+    height: 90px;
+    filter: brightness(75%);
+    transition: 1s;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px black;
+}
+  
+.button-brasil:hover, .button-kingdon:hover {
+    filter: none;
+    transition: 1s;
+}
+  
 .button-brasil {
-    display: inline-block;
-    /*padding: 10px 20px;*/
-    font-size: 16px;
-    border-radius: 10px;
     background-image: url('../imagens/Flag_of_Brazil.png');
-    text-decoration: none;
-    margin: 10px;
-    width: 150px;
-    height: 90px;
-    filter:brightness(75%);
-    transition: 1s;
-    border: 2px solid black;
-    box-shadow: 2px 2px 7px black;
 }
-
-.button-brasil:hover{
-    filter: none;
-    transition: 1s;
-}
-
+  
 .button-kingdon {
-    display: inline-block;
-    /*padding: 10px 20px;*/
-    font-size: 16px;
-    border-radius: 10px;
     background-image: url('../imagens/Flag_of_the_United_Kingdom.png');
-    text-decoration: none;
-    margin: 10px;
-    width: 150px;
-    height: 90px;
-    filter:brightness(75%);
-    transition: 1s;
-    border: 2px solid black;
-    box-shadow: 2px 2px 7px black;
 }
-
-.button-kingdon:hover{
-    filter: none;
-    transition: 1s;
-}
-
 
 @media screen and (max-width: 550px) {
     body {
-      padding-top: 50px;
+      padding-top: 150px;
     }
   
     .landpage {
