@@ -121,22 +121,23 @@ section .content{
 }
 
 .container-jobs{
+    flex-wrap: wrap;
     display: flex;
   /*  flex-direction: row; /*colum*/
    /* flex-wrap: wrap; /*wrap-reverse*/
   /*  justify-content: space-evenly;*/
 }
 
-.left {
+.left{
     flex: 1;
     margin-right: 20px;
-  }
+}
 
 .right{
     flex: 1;
-        flex-wrap: wrap;
-        max-width: 300px;
-        justify-content: center;
+    flex-wrap: wrap;
+     display: flex;
+  justify-content: center;
 }
 
 .left img{
@@ -144,7 +145,7 @@ section .content{
 }
 
 .right img{
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -192,7 +193,6 @@ aside{
     }
     .left, .right {
         flex: auto;
-        flex-wrap: wrap;
       }
   }
 
