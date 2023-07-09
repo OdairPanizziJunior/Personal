@@ -61,11 +61,19 @@ body {
 
 @media screen and (max-width: 550px) {
     body {
-      padding-top: 150px;
+      padding-top: 0;
     }
   
     .landpage {
-      width: 80%;
-      margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landpage h1{
+        font-size: x-large;
+    }
+    .landpage a {
+        margin: 10px;
     }
   }
