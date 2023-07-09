@@ -190,16 +190,48 @@ aside{
     }
     .container-jobs{
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .left, .right {
         flex: auto;
       }
+    
+      .left {
+        flex: 1;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .left img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+      }
+      .right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+       
+      .right img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+      }
+
     .container-cover{
         display: flex;
         flex-direction: column;
     }
     .container-cover .content{
         margin-top: 15px;
+    }
+    .container-cover img{
+        width: 5px;
     }
   }
 
