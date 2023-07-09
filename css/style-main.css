@@ -40,8 +40,8 @@ header h1{
 }
 
 .intro{
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 2em;
 }
@@ -53,7 +53,7 @@ header h1{
 }
   
 .container-cover img {
-    width: 250px;
+    width: 200px;
     height: auto;
     margin-right: 20px;
     border-radius: 50%;
@@ -62,7 +62,11 @@ header h1{
 
 .container-cover .text {
     flex: 1;
-}  
+}
+
+.container-cover .message{
+    text-align: center;
+}
 
 figure {
   margin-top: 15px;
@@ -79,7 +83,6 @@ figcaption {
     justify-content: center;
     border: 1px solid var(--cor05);
 }
-
 
 table {
     border-collapse: collapse;
@@ -107,12 +110,12 @@ td:hover{
 
 section{
     background-color: var(--cor06);  
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     max-width: 800px;
     border: 1px solid var(--cor05);
     box-shadow: 0px 2px 5px var(--cor05);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
 }
 
 section .content{
@@ -123,9 +126,6 @@ section .content{
 .container-jobs{
     flex-wrap: wrap;
     display: flex;
-  /*  flex-direction: row; /*colum*/
-   /* flex-wrap: wrap; /*wrap-reverse*/
-  /*  justify-content: space-evenly;*/
 }
 
 .left{
@@ -136,8 +136,8 @@ section .content{
 .right{
     flex: 1;
     flex-wrap: wrap;
-     display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .left img{
@@ -153,7 +153,6 @@ section .content{
 
 aside{
     margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .video-container {
@@ -172,8 +171,8 @@ aside{
 }
 
 .video{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .video p{
@@ -233,9 +232,10 @@ aside{
     .container-cover .content{
         margin-top: 15px;
     }
-    
+
     .container-cover img{
-        width: 5px;
+        width: 175px;
+        margin: auto;
     }
   }
 
