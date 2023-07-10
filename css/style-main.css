@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
-:root{
+/* Variables */
+:root {
     --cor01: #41D2F2;
     --cor02: #0367A6;
     --cor03: #024873;
@@ -16,42 +17,56 @@
     --cor06: white;
 }
 
-body{
+/* Global Styles */
+body {
     background-color: var(--cor01);
+    font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header */
 header {
     background-color: var(--cor04);
-    text-align: center;
     color: var(--cor06);
-    width: 100%;
-    height: 100px;
+    text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-header h1{
+header h1 {
     font-size: 3em;
+    font-weight: bold;
 }
 
+/* Screen */
 .screen {
-    /*padding: 10px; /*para dar margem no celular*/
     margin: -1px 10px;
     margin-bottom: 50px;
 }
 
-.intro{
+.intro {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 2em;
+    font-weight: bold;
 }
 
+/* Container Cover */
 .container-cover {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-  
+
 .container-cover img {
     width: 200px;
     height: auto;
@@ -64,52 +79,55 @@ header h1{
     flex: 1;
 }
 
-.container-cover .message{
+.container-cover .message {
     text-align: center;
 }
 
+/* Figure */
 figure {
-  margin-top: 15px;
-  text-align: center;
+    margin-top: 15px;
+    text-align: center;
 }
 
 figcaption {
-  font-style: italic;
-  color: var(--cor01);
-  font-size: smaller;
+    font-style: italic;
+    color: var(--cor01);
+    font-size: smaller;
 }
 
-.map{
+/* Map */
+.map {
     justify-content: center;
     border: 1px solid var(--cor05);
 }
 
+/* Table */
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-top:15px;
-    /*margin: 5px; tirado por não centralizava*/
+    margin-top: 15px;
 }
 
 th, td {
-   padding: 1px;
-/*    text-align: left;*/
+    padding: 2px;
 }
-  
+
 th {
     background-color: var(--cor04);
     color: var(--cor06);
-    text-align: center;
-    border-top-left-radius: 50px;border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 15px;
 }
 
-td:hover{
+td:hover {
     text-indent: 0.4%;
     transition: 0.2s;
 }
 
-section{
-    background-color: var(--cor06);  
+/* Section */
+section {
+    background-color: var(--cor06);
     padding: 20px;
     margin: auto;
     max-width: 800px;
@@ -118,39 +136,37 @@ section{
     border-radius: 0 0 5px 5px;
 }
 
-section .content{
+section .content {
     text-indent: 30px;
     text-align: justify;
 }
 
+/* Custom Caption */
 .custom-caption {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.281);
     padding: 5px;
-    width: 80%;
+    width: 50%;
+    height: 15%;
     margin: auto;
-  }
-  
-  .caption-title {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .caption-description {
-    color: white;
-    font-size: 14px;
-  }
-
-
-aside{
-    margin-top: 15px;
 }
 
+.caption-title {
+    color: var(--cor06);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caption-description {
+    color: white;
+    font-size: 14px;
+}
+
+/* Video Container */
 .video-container {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* Proporção de 16:9 (divida a altura pelo largura e multiplique por 100) */
+    padding-bottom: 56.25%;
 }
 
 .video-container iframe {
@@ -161,16 +177,19 @@ aside{
     height: 100%;
 }
 
-.video{
+.video {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.video p{
+.video p {
     text-align: center;
     color: var(--cor06);
     background-color: var(--cor03);
+    margin-top: 0;
 }
+
+
 
   @media screen and (max-width: 670px) {
     header {
