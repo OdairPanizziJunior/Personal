@@ -33,7 +33,7 @@ p {
     margin: 0;
 }
 
-/* Header */
+/* Header ANTES
 header {
     background-color: var(--cor04);
     padding-top: 50px;
@@ -73,6 +73,55 @@ header h1 {
     text-align: center;
     color: var(--cor06);
 }
+*/
+header {
+    background-color: var(--cor04);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .home, .git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor06);
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 3em;
+  }
+  
+  .home .fa{
+    color: var(--cor02);
+  }
+
+  .git .fa{
+    color: var(--cor02);
+  }
+  
+  .home .fa:hover {
+    color: var(--cor01);
+    background-color: var(--cor06);
+  }
+
+  .git .fa:hover {
+    color: var(--cor01);
+    background-color: var(--cor06);
+  }
+  
+  header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor06);
+  }
+  
 
 /* Screen */
 .screen {
@@ -223,27 +272,30 @@ section .content {
     margin-top: 0;
 }
 
-  @media screen and (max-width: 670px) {
-    header {
-     /* height: 120px;*/
-      padding-top: 50px;
-      padding-bottom: 50px;
+@media screen and (max-width: 670px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+      } 
+    
+    .home {
+        width: 40px;
+        height: 40px;
+        font-size: 2em;
     }
     
-    .menu{
-        font-size: 0.6em;
+    .myName {
+        font-size: 0.7em;
+        order: -1;
+    }
+    
+    .git {
+        width: 40px;
+        height: 40px;
+        font-size: 2em;
     }
 
-    .bandeira{
-        margin: 3px;
-    }
-
-    .home{
-        width: 50px;
-        height: 50px;
-    }
-
-    .intro{
+     .intro{
         margin-top: 160px;
     }
 
