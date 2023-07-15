@@ -232,8 +232,6 @@ section .content {
     
     .menu{
         font-size: 0.6em;
-        padding-left: 10px;
-        margin-left: 20px;
     }
 
     .bandeira{
