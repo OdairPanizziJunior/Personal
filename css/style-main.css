@@ -33,96 +33,6 @@ p {
     margin: 0;
 }
 
-/* Header ANTES
-header {
-    background-color: var(--cor04);
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor06);
-    width: 80px;
-    height: 80px;
-    border-radius: 4px;
-    font-size: 3em;
-}
-
-.home .fa{
-    color: var(--cor02);
-}
-
-.home .fa:hover{
-    color: var(--cor01);
-    background-color: var(--cor06);
-}
-
-
-header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-    color: var(--cor06);
-}
-*/
-header {
-    background-color: var(--cor04);
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .home, .git{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor06);
-    width: 50px;
-    height: 50px;
-    border-radius: 4px;
-    font-size: 3em;
-  }
-  
-  .home .fa{
-    color: var(--cor02);
-  }
-
-  .git .fa{
-    color: var(--cor02);
-  }
-  
-  .home .fa:hover {
-    color: var(--cor01);
-    background-color: var(--cor06);
-  }
-
-  .git .fa:hover {
-    color: var(--cor01);
-    background-color: var(--cor06);
-  }
-  
-  header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-    color: var(--cor06);
-  }
-  
-
 /* Screen */
 .screen {
     margin: -1px 10px;
@@ -130,7 +40,7 @@ header {
 }
 
 .intro {
-    margin-top: 180px;
+    margin-top: 80px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 2em;
@@ -273,30 +183,8 @@ section .content {
 }
 
 @media screen and (max-width: 670px) {
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-      } 
-    
-    .home {
-        width: 40px;
-        height: 40px;
-        font-size: 2em;
-    }
-    
-    .myName {
-        font-size: 0.7em;
-        order: -1;
-    }
-    
-    .git {
-        width: 40px;
-        height: 40px;
-        font-size: 2em;
-    }
-
-     .intro{
-        margin-top: 160px;
+      .intro{
+        margin-top: 80px;
     }
 
     .container-jobs{
@@ -360,4 +248,3 @@ section .content {
     margin-top: 35px;
     margin-bottom: 15px;
 }
-  

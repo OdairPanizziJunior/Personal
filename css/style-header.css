@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --cor01: #41D2F2;
+    --cor02: #0367A6;
+    --cor03: #024873;
+    --cor04: #012840;
+    --cor05: #0D0D0D;
+    --cor06: white;
+    --cor07: #0d0d0db9;
+}
+
+nav{
+    background-color: var(--cor04);
+    color: var(--cor06);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--cor06);
+}
+
+nav a{
+color: #0d0d0d;
+}
+
