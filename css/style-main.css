@@ -36,15 +36,42 @@ p {
 /* Header */
 header {
     background-color: var(--cor04);
-    color: var(--cor06);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor06);
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    font-size: 3em;
+}
+
+.home .fa{
+    color: var(--cor02);
+}
+
+.home .fa:hover{
+    color: var(--cor01);
+    background-color: var(--cor06);
+}
+
 
 header h1 {
     font-size: 3em;
     font-weight: bold;
+    text-align: center;
+    color: var(--cor06);
 }
 
 /* Screen */
@@ -54,7 +81,7 @@ header h1 {
 }
 
 .intro {
-    margin-top: 30px;
+    margin-top: 180px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 2em;
@@ -196,13 +223,30 @@ section .content {
     margin-top: 0;
 }
 
-
-
   @media screen and (max-width: 670px) {
     header {
-      height: 80px;
-      padding-top: 10px;
-      font-size: 0.7em;
+     /* height: 120px;*/
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .menu{
+        font-size: 0.6em;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .bandeira{
+        margin: 3px;
+    }
+
+    .home{
+        width: 50px;
+        height: 50px;
+    }
+
+    .intro{
+        margin-top: 160px;
     }
 
     .container-jobs{
