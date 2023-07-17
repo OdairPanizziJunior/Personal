@@ -88,12 +88,28 @@ figcaption {
     border: 1px solid var(--cor05);
 }
 
-/*Serviços*/
-.sevices{
-    display: flex;
-    flex-direction: row;
+/*Serviços - CardGroup*/
+.card img{
+    padding: 11px;
 }
 
+.card-group .card .card-body .card-title{
+    text-align: center;
+}
+
+.card-group .card .card-body .card-text{
+    text-align: center;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+.card img:not(:hover){
+    transform: scale(1);
+    transition: transform 0.4s ease;
+}
 
 /* Table */
 table {
