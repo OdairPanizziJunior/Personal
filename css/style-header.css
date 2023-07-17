@@ -27,7 +27,6 @@ nav{
     color: var(--cor06);
 }
 
-nav a{
-color: #0d0d0d;
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--cor02);
 }
-
