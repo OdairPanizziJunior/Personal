@@ -66,6 +66,14 @@ p {
     flex: 1;
 }
 
+.container-cover a{
+    color: var(--cor05);
+}
+.container-cover a:hover{
+    text-decoration: none;
+    color: var(--cor02);
+ }
+
 .container-cover .message {
     text-align: center;
 }
