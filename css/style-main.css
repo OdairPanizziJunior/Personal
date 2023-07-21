@@ -218,6 +218,20 @@ section .content {
     margin-top: 0;
 }
 
+.personalSites a::before{
+    content: "\2192";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.personalSites a{
+    color: var(--cor05);
+}
+.personalSites a:hover{
+    text-decoration: none;
+    color: var(--cor03);
+}
+
 @media screen and (max-width: 670px) {
       .intro{
         margin-top: 80px;
