@@ -33,11 +33,11 @@ p {
     margin: 0;
 }
 
-/* Screen */
-.screen {/*
+/* Screen CRIAVA UMA PEQUENA MARGEM NAS TELAS MENORES 
+.screen {
     margin: -1px 10px;
-    margin-bottom: 50px;*/
-}
+    margin-bottom: 50px;
+}*/
 
 .intro {
     margin-top: 80px;
