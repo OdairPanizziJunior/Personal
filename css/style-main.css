@@ -15,7 +15,7 @@
     --cor04: #012840;
     --cor05: #0D0D0D;
     --cor06: white;
-    --cor07: #0d0d0db9;
+    --cor07: #0d0d0dd5;
 }
 
 /* Global Styles */
@@ -161,19 +161,9 @@ section .content {
 }
 
 /*Bootstrap Image*/
-#carouselExample img{
-    border-radius: 5px;
-    border: 2px solid var(--cor05);
-    margin-bottom: 15px;
-}
 
 /* Custom Caption */
-.custom-caption {/*
-    background-color:var(--cor07);
-    padding: 5px;
-    width: 50%;
-    height: 15%;
-    margin: auto;*/
+.custom-caption { /*legendas das fotos*/
     background-color:var(--cor07);
     border-radius: 50px;
 
@@ -190,6 +180,13 @@ section .content {
     font-size: 14px;
 }
 
+/*====carousel about====*/
+
+.carousel-about{
+    border-radius: 5px;
+    border: 2px solid var(--cor05);
+}
+/*======================*/
 /* Video Container */
 .video-container {
     position: relative;
@@ -218,6 +215,19 @@ section .content {
     margin-top: 0;
 }
 
+/*===========Carousel===========*/
+.sites {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.sites > p{
+    text-align: center;
+    color: var(--cor06);
+    background-color: var(--cor03);
+    margin-top: 0;
+}
+/*=============================*/
 .personalSites a::before{
     content: "\2192";
     margin-left: 10px;
@@ -227,6 +237,7 @@ section .content {
 .personalSites a{
     color: var(--cor05);
 }
+
 .personalSites a:hover{
     text-decoration: none;
     color: var(--cor03);
