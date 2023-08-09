@@ -217,10 +217,11 @@ section .content {
     margin-top: 0;
 }
 
-/*===========Carousel===========*/
+/*===========Jquery===========*/
 .sites {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border: 1px solid black;
 }
 
 .sites > p{
