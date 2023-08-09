@@ -409,12 +409,16 @@
 
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		padding: 10px 10px 10px 10px;
 	}
 	.grid li {
 		width: 100%;
-		min-width: 300px;
+		min-width: 200px; /*era 300*/
 	}
+	/*não havia essa condição*/
+	.grid figcaption h3{
+		font-size: small;
+	} 
 }
 
 @media screen and (max-width: 25em) {
