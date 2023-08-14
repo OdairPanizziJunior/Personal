@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
+:root {
     --cor01: #41D2F2;
     --cor02: #0367A6;
     --cor03: #024873;
@@ -20,19 +20,20 @@ body {
     background-color: var(--cor04);
     color: var(--cor06);
 }
-  
+
 .landpage {
     margin: auto;
     padding-top: 100px;
     min-width: 300px;
     max-width: 800px;
 }
-  
+
 .landpage p {
     font-weight: bold;
 }
-  
-.button-brasil, .button-kingdon {
+
+.button-brasil,
+.button-kingdon {
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
@@ -45,35 +46,37 @@ body {
     border: 2px solid black;
     box-shadow: 2px 2px 7px black;
 }
-  
-.button-brasil:hover, .button-kingdon:hover {
+
+.button-brasil:hover,
+.button-kingdon:hover {
     filter: none;
     transition: 1s;
 }
-  
+
 .button-brasil {
     background-image: url('../imagens/Flag_of_Brazil.png');
 }
-  
+
 .button-kingdon {
     background-image: url('../imagens/Flag_of_the_United_Kingdom.png');
 }
 
 @media screen and (max-width: 550px) {
     body {
-      padding-top: 0;
+        padding-top: 0;
     }
-  
+
     .landpage {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .landpage h1{
+    .landpage h1 {
         font-size: x-large;
     }
+
     .landpage a {
         margin: 10px;
     }
-  }
+}

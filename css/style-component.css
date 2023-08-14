@@ -1,22 +1,31 @@
-*, *:after, *:before { 
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
-	box-sizing: border-box; 
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
 
 
-:root{
-    --cor01: #41D2F2;
-    --cor02: #0367A6;
-    --cor03: #024873;
-    --cor04: #012840;
-    --cor05: #0D0D0D;
-    --cor06: white;
+:root {
+	--cor01: #41D2F2;
+	--cor02: #0367A6;
+	--cor03: #024873;
+	--cor04: #012840;
+	--cor05: #0D0D0D;
+	--cor06: white;
 }
 
 .grid {
@@ -47,7 +56,8 @@
 	position: relative;
 }
 
-.grid figcaption { /*fonte do Título e do subtítulo*/
+.grid figcaption {
+	/*fonte do Título e do subtítulo*/
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -76,9 +86,10 @@
 	text-decoration: none;
 }
 
-.grid figcaption a:hover{
+.grid figcaption a:hover {
 	background-color: var(--cor02);
 }
+
 /* Individual Caption Styles */
 
 /* Caption Style 1 */
@@ -213,7 +224,7 @@
 	transform-style: preserve-3d;
 }
 
-.cs-style-4 figure > div {
+.cs-style-4 figure>div {
 	overflow: hidden;
 }
 
@@ -345,12 +356,29 @@
 }
 
 /* Caption Style 7 */
-.cs-style-7 li:first-child { z-index: 6; }
-.cs-style-7 li:nth-child(2) { z-index: 5; }
-.cs-style-7 li:nth-child(3) { z-index: 4; }
-.cs-style-7 li:nth-child(4) { z-index: 3; }
-.cs-style-7 li:nth-child(5) { z-index: 2; }
-.cs-style-7 li:nth-child(6) { z-index: 1; }
+.cs-style-7 li:first-child {
+	z-index: 6;
+}
+
+.cs-style-7 li:nth-child(2) {
+	z-index: 5;
+}
+
+.cs-style-7 li:nth-child(3) {
+	z-index: 4;
+}
+
+.cs-style-7 li:nth-child(4) {
+	z-index: 3;
+}
+
+.cs-style-7 li:nth-child(5) {
+	z-index: 2;
+}
+
+.cs-style-7 li:nth-child(6) {
+	z-index: 1;
+}
 
 .cs-style-7 figure img {
 	z-index: 10;
@@ -411,14 +439,17 @@
 	.grid {
 		padding: 10px 10px 10px 10px;
 	}
+
 	.grid li {
 		width: 100%;
-		min-width: 200px; /*era 300*/
+		min-width: 200px;
+		/*era 300*/
 	}
+
 	/*não havia essa condição*/
-	.grid figcaption h3{
+	.grid figcaption h3 {
 		font-size: small;
-	} 
+	}
 }
 
 @media screen and (max-width: 25em) {

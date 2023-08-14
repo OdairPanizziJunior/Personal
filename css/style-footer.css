@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 }
 
-:root{
+:root {
     --cor01: #41D2F2;
     --cor02: #0367A6;
     --cor03: #024873;
@@ -19,7 +19,7 @@
 }
 
 
-footer{
+footer {
     position: relative;
     width: 100%;
     height: auto;
@@ -30,29 +30,29 @@ footer{
     flex-wrap: wrap;
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-footer .container .sec{
+footer .container .sec {
     margin-right: 30px;
 }
 
-footer .container .sec.aboutus{
+footer .container .sec.aboutus {
     width: 40%;
 }
 
-footer .container h2{
+footer .container h2 {
     position: relative;
     color: var(--cor06);
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-footer .container h2::before{
+footer .container h2::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -63,20 +63,20 @@ footer .container h2::before{
 }
 
 
-footer p{
-   color: var(--cor06);
+footer p {
+    color: var(--cor06);
 }
 
-.sci{
+.sci {
     margin-top: 20px;
     display: flex;
 }
 
-.sci li{
+.sci li {
     list-style: none;
 }
 
-.sci li a{
+.sci li a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -89,69 +89,70 @@ footer p{
     border-radius: 4px;
 }
 
-.sci li a:hover{
+.sci li a:hover {
     background: var(--cor02);
 }
 
-.sci li .fa{
+.sci li .fa {
     color: var(--cor06);
     font-size: 20px;
 }
 
-.quickLinks{
+.quickLinks {
     position: relative;
     width: 25%;
 }
 
-.quickLinks ul li{
+.quickLinks ul li {
     list-style: none;
 }
 
-.quickLinks ul li a{
+.quickLinks ul li a {
     color: var(--cor06);
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
 }
 
-.quickLinks ul li a:hover{
+.quickLinks ul li a:hover {
     color: var(--cor02);
 }
 
-.contact{
+.contact {
     width: calc(35% - 60px);
-    margin-right: 0 !important; /*NINJA*/
+    margin-right: 0 !important;
+    /*NINJA*/
 }
 
-.contact .info{
+.contact .info {
     position: relative;
 }
 
-.contact .info li{
+.contact .info li {
     display: flex;
     margin-bottom: 16px;
 }
 
-.contact .info li span:nth-child(1){
+.contact .info li span:nth-child(1) {
     color: var(--cor06);
     font-size: 20px;
     margin-right: 10px;
 }
 
-.contact .info li span{
+.contact .info li span {
     color: var(--cor06);
 }
 
-.contact .info li a{
+.contact .info li a {
     color: var(--cor06);
     text-decoration: none;
 }
 
-.contact .info li a:hover{
-   color: var(--cor02);
+.contact .info li a:hover {
+    color: var(--cor02);
 }
 
-.copyright{
+.copyright {
     width: 100%;
     background-color: var(--cor05);
     padding: 8px 100px;
@@ -159,25 +160,29 @@ footer p{
     color: var(--cor06);
 }
 
-@media (max-width:901px){ /*condidional resolução*/
-    footer{
+@media (max-width:901px) {
+
+    /*condidional resolução*/
+    footer {
         padding: 40px;
     }
 
-    footer .container{
+    footer .container {
         flex-direction: column;
     }
 
-    footer .container .sec{
+    footer .container .sec {
         margin-right: 0;
         margin-bottom: 40px;
     }
 
-    footer .container .sec.aboutus, .quickLinks, .contact{
+    footer .container .sec.aboutus,
+    .quickLinks,
+    .contact {
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         padding: 8px 40px;
     }
 
