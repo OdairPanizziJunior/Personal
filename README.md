@@ -1,16 +1,18 @@
-🚀 Personal Website
+# 🚀 Personal Website  
 
-Repositório do meu site pessoal, onde compartilho minha trajetória, experiências e habilidades.
+[![Website](https://img.shields.io/badge/Website-LIVE-blue?style=flat&logo=google-chrome&logoColor=white)](https://odairpanizzijunior.github.io/Personal/)  
+Repositório do meu site pessoal, onde compartilho minha trajetória, experiências e habilidades.  
 
-📌 Sobre o Projeto
-Este repositório contém o código-fonte do meu site pessoal, desenvolvido para apresentar meu perfil profissional e portfólio.
+## 📌 Sobre o Projeto  
+Este repositório contém o código-fonte do meu site pessoal, desenvolvido para apresentar meu perfil profissional e portfólio.  
 
-🛠 Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript
+## 🛠 Tecnologias Utilizadas  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
 
-📂 Estrutura
+## 📂 Estrutura  
+```bash
 /Personal
 │── /css
 │── /html
@@ -18,6 +20,7 @@ JavaScript
 │── /js
 │── index.html
 │── README.md
+
 
 🌍 Acesse o Site
 🔗 odairpanizzijunior.github.io/Personal
