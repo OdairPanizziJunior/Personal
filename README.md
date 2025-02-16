@@ -12,7 +12,7 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 - **JavaScript**  
 
 ## 📂 Estrutura  
-
+```bash
 /Personal
 │── /css
 │── /html
