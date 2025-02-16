@@ -21,9 +21,7 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 │── index.html
 │── README.md
 
-
-
-🌍 Acesse o Site
+## 🌍 Acesse o Site
 🔗 odairpanizzijunior.github.io/Personal
 
 📧 Contato
