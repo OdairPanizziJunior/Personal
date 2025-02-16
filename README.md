@@ -24,8 +24,6 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 
 ## 🌍 Acesse o Site  
 🔗 [odairpanizzijunior.github.io/Personal](https://odairpanizzijunior.github.io/Personal/)
-<a href="https://odairpanizzijunior.github.io/Personal" target="_blank">Acesse o Site</a>
-
 
 ## 📧 Contato  
 ✉️ Email: [odairpanizzijunior@gmail.com](mailto:odairpanizzijunior@gmail.com)  
