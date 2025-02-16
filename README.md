@@ -12,7 +12,7 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 - **JavaScript**  
 
 ## 📂 Estrutura  
-```bash
+
 /Personal
 │── /css
 │── /html
@@ -21,9 +21,10 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 │── index.html
 │── README.md
 
+
 ## 🌍 Acesse o Site
 🔗 odairpanizzijunior.github.io/Personal
-
+```bash
 📧 Contato
 ✉️ Email: odairpanizzijunior@gmail.com
 💼 LinkedIn: Odair Panizzi Júnior
