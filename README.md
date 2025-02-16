@@ -30,3 +30,4 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 ✉️ Email: [odairpanizzijunior@gmail.com](mailto:odairpanizzijunior@gmail.com)  
 💼 LinkedIn: [Odair Panizzi Júnior](https://www.linkedin.com/in/odairpanizzijunior/)
 
+[Main Page](https://github.com/OdairPanizziJunior)
