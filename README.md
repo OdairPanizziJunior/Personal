@@ -15,9 +15,10 @@ Este repositório contém o código-fonte do meu site pessoal, desenvolvido para
 ```bash
 /Personal
 │── /css
+│── /docs
 │── /html
-│── /img
-│── /js
+│── /imagens
+│── /javascript
 │── index.html
 │── README.md
 ```
